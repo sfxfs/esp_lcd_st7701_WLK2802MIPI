@@ -3,14 +3,12 @@ targets:
   - esp32s3
   - esp32p4
 description: ESP LCD ST7701(RGB & MIPI-DSI)
-url: https://github.com/espressif/esp-iot-solution/tree/master/components/display/lcd/esp_lcd_st7701
-repository: https://github.com/espressif/esp-iot-solution.git
-issues: https://github.com/espressif/esp-iot-solution/issues
+url: https://github.com/sfxfs/esp_lcd_st7701_WLK2802MIPI
+repository: https://github.com/sfxfs/esp_lcd_st7701_WLK2802MIPI
+issues: https://github.com/sfxfs/esp_lcd_st7701_WLK2802MIPI/issues
 dependencies:
   idf: ">=5.4"
   cmake_utilities: "0.*"
-examples:
-  - path: ../../../../examples/display/lcd/rgb_avoid_tearing
 sbom:
   supplier: 'Organization: Espressif Systems (Shanghai) CO LTD'
   originator: 'Organization: Espressif Systems (Shanghai) CO LTD'
